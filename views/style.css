@@ -1,0 +1,135 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+	background: #374046;
+    font-family: "Roboto", sans-serif;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+input:focus, textarea:focus {
+    outline: none;
+}
+
+/**************     Home page design   *****************/
+
+main {
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+  height: 100%;
+  -webkit-justify-content: center;
+  justify-content: center;
+  width: 100%;
+}
+.container {
+  background: #fff;
+  box-shadow: 0 0 15px 0 rgba(0, 0, 0, .75);
+  margin: 0 auto;
+  margin-top: 3%;
+  width: 300px !important;
+  
+}
+.heading {
+  background: #3f51b5;
+  border-top: 10px solid #303f9f;
+  box-shadow: 0 0 5px 0 rgba(0, 0, 0, .75);
+  padding: 1.5em 1.25em;
+}
+h1 {
+  color: #fff;
+  font-size: 1.5em;
+  font-weight: normal;
+  margin: 0;
+}
+h2 {
+  color: #c5cae9;
+  font-size: 1em;
+  font-weight: normal;
+  line-height: 1.5;
+  margin: 0;
+  padding-top: .25em;
+}
+fieldset {
+  border: none;
+  margin: 0;
+  padding: 1.5em 1em;
+  text-align: center;
+}
+legend,
+label {
+  display: none;
+}
+input, textarea{
+  background: #eee;
+  border: 1px solid #ccc;
+  border-bottom: 3px solid #bbb;
+  border-radius: 3px;
+  color: #999;
+  font-size: 1em;
+  margin-bottom: 1em;
+  padding: .5em;
+  width: 85%;
+  resize: none;
+}
+button {
+  background: #e91e63;
+  border: none;
+  border-radius: 3px;
+  color: #fff;
+  cursor: pointer;
+  font-size: .85em;
+  font-weight: 500;
+  margin: 1.5em .5em 0;
+  padding: 1em;
+  width: 100px;
+}
+button:hover {
+  background: #cc0f4f;
+}
+.secondary {
+  background: #999;
+}
+.secondary:hover {
+  background: #777;
+}
